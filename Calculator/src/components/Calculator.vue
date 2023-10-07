@@ -6,29 +6,11 @@ const UserInput = ref('')
 const append = (value) => {
   UserInput.value += value
 }
-// Sum function
+// clear  function
 const clear = () => {
     UserInput.value = ''
 }
-// - function
-const sub = (a, b) => {
-    return a - b
-}
-// Division function
-const divide = (a, b) => {
-    return a / b
-}
-// Multiplication method
-const multi = (a, b) => {
-    return a * b
-}
-const percent = (a, b) => {
-    return a % b
-}
 
-const sum = (a, b) => {
-    return a + b
-}
 // Check which operation to display the result 
 const checkOperation = () => {
   const input = UserInput.value;
